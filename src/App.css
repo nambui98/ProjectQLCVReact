@@ -1,0 +1,66 @@
+.App {
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.text-right{
+  float: right;
+  cursor: pointer;
+}
+.mt-5{
+  margin-top: 20px;
+}
+.fas{
+  padding-right: 5px;
+}
+button{
+  padding: 10px;
+}
+.mr-5{
+  margin-right: 5px;
+}
+.ml-5{
+  margin-left: 5px;
+}
+.label{
+  cursor: pointer;
+}
+.dropdown-menu li a{
+  cursor: pointer;
+}
+.sort_selected::after{
+  content: '\F00C';
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
